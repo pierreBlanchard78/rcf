@@ -30,6 +30,20 @@
 
     <main id="main">
 
+        <div class="container-fluid d-flex justify-content-center align-items-center m-0 p-0">
+            <div class="col-10 d-flex flex-column m-0 p-0">
+
+                <?php
+                include './html/who.html'
+                ?>
+                
+                <?php
+                include './html/activity.html'
+                ?>
+
+            </div>
+        </div>
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
