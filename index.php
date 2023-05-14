@@ -41,10 +41,22 @@
                 include './html/activity.html'
                 ?>
 
+                <?php
+                include './html/where.html'
+                ?>
+
+                <?php
+                include './html/contact.html'
+                ?>
+
             </div>
         </div>
 
     </main>
+
+    <?php
+    include './html/news.html'
+    ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
