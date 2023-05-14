@@ -1,0 +1,107 @@
+/* FEUILLE DE STYLE */
+/* ECF "Créer un site web avec HTML, CSS et Bootstrap", Par Pierre BLANCHARD */
+/* Référence évaluation : GDWFSHTMLCSSBOOTEXAIII1A */
+
+/* GENERAL */
+body {
+    background-image: url(img/rcfBack.jpg);
+}
+
+.title, .endMessage {
+    font-family: 'sarina';
+}
+
+p {
+    font-size: 1.4em;
+    font-family: "lora-regular";
+}
+
+@media (max-width: 576px) {
+
+    p, .afooter {
+        font-size: 1em;
+        line-height: 15px;
+    }
+
+    .imgArticle {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+}
+
+/* HEADER */
+
+@font-face {font-family: 'sarina';src: url(./../font/Sarina-Regular.ttf);}
+
+header {
+    height: 100vh;
+    background: url('https://loremflickr.com/5000/4000/camping') no-repeat center/cover;
+}
+
+.navBar {
+    background: linear-gradient(10deg,aqua,white);
+    z-index: 2; /* La navbar étant fixe, il est necéssaire qu'elle passe par dessus tout les éléments, en particulier le carousel bootstrap */
+}
+
+.dropdown-menu, .cursor-pointer:hover {
+    border: 2px solid aqua !important;
+    border-radius: 10px;
+}
+
+.dropdown-toggle, .dropdown-item, .card {
+    background: transparent !important;
+}
+
+.dropdown-item {
+    color: aqua !important;
+}
+
+.boxTitle {
+    margin-top: 20%;
+}
+
+.imgTitlebox {
+    background: url(./../img/imgTitle.png) no-repeat center 0%;
+}
+
+/* SECTIONS */
+
+article {
+    font-size: 0.5em !important;
+}
+
+.carousel-item img {
+    height: 5%;
+}
+
+.imgArticle {
+    height: 120px;
+    width: 120px;
+}
+
+.borderDarkred {
+    border-bottom: 2px solid #cc0000;
+}
+
+.darkred {
+    color: #cc0000;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(-160deg, brown, brown, gold);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    font-family: Arial;
+}
+
+.imgTechs {
+    height: 40px !important;
+    width: 40px !important;
+}
+
